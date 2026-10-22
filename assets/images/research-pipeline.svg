@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 570" role="img" aria-labelledby="title desc">
+  <title id="title">Research design-build-measure-learn pipeline</title>
+  <desc id="desc">Conceptual diagram connecting molecular and material design, microfluidic manufacture, quantitative measurement, machine-learning-guided modeling, and programmable delivery.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#0d6764"/></marker>
+    <pattern id="mesh" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M0 7h14M7 0v14" stroke="#47738a" stroke-width="1" opacity=".5"/></pattern>
+  </defs>
+  <rect width="820" height="570" rx="28" fill="#fffdf8"/>
+  <text x="42" y="50" fill="#15201f" font-family="Georgia, serif" font-size="24">A closed-loop platform for therapeutic delivery</text>
+  <text x="42" y="78" fill="#5e6763" font-family="Arial, sans-serif" font-size="13">Molecules → materials → mechanics → predictive models → delivery systems</text>
+
+  <path d="M161 186C210 132 268 125 314 164" fill="none" stroke="#0d6764" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M453 176C507 134 560 143 600 187" fill="none" stroke="#0d6764" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M647 288C633 342 590 366 544 374" fill="none" stroke="#0d6764" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M414 416C357 458 295 452 252 414" fill="none" stroke="#0d6764" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M161 362C112 324 103 270 129 226" fill="none" stroke="#0d6764" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g transform="translate(54 118)">
+    <rect width="132" height="124" rx="20" fill="#f5f1e8" stroke="#d8d2c6"/>
+    <text x="16" y="25" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.3">DESIGN</text>
+    <path d="M24 58c12-18 24 18 36 0s24 18 36 0 18 10 22 4" fill="none" stroke="#0d6764" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="42" cy="92" r="16" fill="#dbe9e5" stroke="#0d6764" stroke-width="2"/>
+    <path d="M36 88c6-8 12 8 18 0" fill="none" stroke="#a94835" stroke-width="2"/>
+    <text x="68" y="89" fill="#15201f" font-family="Arial, sans-serif" font-size="11">mRNA</text>
+    <text x="68" y="104" fill="#5e6763" font-family="Arial, sans-serif" font-size="10">sequence + materials</text>
+  </g>
+
+  <g transform="translate(308 105)">
+    <rect width="158" height="138" rx="20" fill="#f5f1e8" stroke="#d8d2c6"/>
+    <text x="16" y="25" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.3">MANUFACTURE</text>
+    <path d="M18 65h52V43h22v22h48" fill="none" stroke="#47738a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+    <path d="M18 65h122" stroke="#0d6764" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="75" cy="65" r="13" fill="#f4ded5" stroke="#a94835" stroke-width="2"/>
+    <circle cx="112" cy="65" r="11" fill="#f4ded5" stroke="#a94835" stroke-width="2"/>
+    <text x="18" y="108" fill="#15201f" font-family="Arial, sans-serif" font-size="11">Microfluidic control</text>
+    <text x="18" y="123" fill="#5e6763" font-family="Arial, sans-serif" font-size="10">of composition + architecture</text>
+  </g>
+
+  <g transform="translate(594 118)">
+    <rect width="162" height="176" rx="20" fill="#f5f1e8" stroke="#d8d2c6"/>
+    <text x="16" y="25" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.3">MEASURE</text>
+    <path d="M14 70h55l20 14-20 14H14z" fill="#dbe9e5" stroke="#0d6764" stroke-width="2"/>
+    <path d="M69 70v28" stroke="#0d6764" stroke-width="2"/>
+    <circle cx="108" cy="84" r="30" fill="#fffdf8" stroke="#a94835" stroke-width="4"/>
+    <path d="M69 79c13 0 18 2 26 5-8 3-13 5-26 5" fill="#f4ded5" stroke="#a94835" stroke-width="2"/>
+    <path d="M19 133h20l8-14 12 28 11-20 12 6h52" fill="none" stroke="#47738a" stroke-width="2.5"/>
+    <text x="16" y="161" fill="#5e6763" font-family="Arial, sans-serif" font-size="10">mechanics · imaging · function</text>
+  </g>
+
+  <g transform="translate(405 351)">
+    <rect width="176" height="142" rx="20" fill="#f5f1e8" stroke="#d8d2c6"/>
+    <text x="16" y="25" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.3">MODEL + LEARN</text>
+    <g transform="translate(18 42)">
+      <rect width="22" height="22" fill="#dbe9e5"/><rect x="25" width="22" height="22" fill="#8cb9ae"/><rect x="50" width="22" height="22" fill="#0d6764"/>
+      <rect y="25" width="22" height="22" fill="#f4ded5"/><rect x="25" y="25" width="22" height="22" fill="#a94835"/><rect x="50" y="25" width="22" height="22" fill="#e7bdac"/>
+      <rect y="50" width="22" height="22" fill="#e5d7b5"/><rect x="25" y="50" width="22" height="22" fill="#80601f"/><rect x="50" y="50" width="22" height="22" fill="#f1e5c8"/>
+      <path d="M94 12l28 25-28 25m28-25h26" fill="none" stroke="#47738a" stroke-width="2"/>
+      <circle cx="148" cy="37" r="10" fill="#dbe9e5" stroke="#0d6764" stroke-width="2"/>
+    </g>
+    <text x="18" y="128" fill="#5e6763" font-family="Arial, sans-serif" font-size="10">simulation + multimodal ML</text>
+  </g>
+
+  <g transform="translate(77 338)">
+    <rect width="190" height="154" rx="20" fill="#f5f1e8" stroke="#d8d2c6"/>
+    <text x="16" y="25" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.3">PROGRAM DELIVERY</text>
+    <circle cx="73" cy="78" r="42" fill="#f4ded5" stroke="#a94835" stroke-width="8"/>
+    <circle cx="73" cy="78" r="31" fill="url(#mesh)" stroke="#47738a" stroke-width="2"/>
+    <g fill="#0d6764"><circle cx="61" cy="68" r="5"/><circle cx="82" cy="83" r="5"/><circle cx="68" cy="94" r="4"/></g>
+    <path d="M127 62h39M127 78h39M127 94h39" stroke="#0d6764" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="18" y="135" fill="#5e6763" font-family="Arial, sans-serif" font-size="10">core · shell · release schedule</text>
+  </g>
+
+  <g transform="translate(42 530)" font-family="Arial, sans-serif" font-size="10" fill="#5e6763">
+    <circle cx="7" cy="-4" r="5" fill="#0d6764"/><text x="18" y="0">mRNA-LNP</text>
+    <rect x="111" y="-10" width="14" height="12" fill="url(#mesh)"/><text x="132" y="0">hydrogel</text>
+    <rect x="219" y="-10" width="14" height="12" fill="#f4ded5" stroke="#a94835"/><text x="240" y="0">polymer shell</text>
+    <circle cx="346" cy="-4" r="8" fill="none" stroke="#a94835" stroke-width="2"/><text x="360" y="0">vesicle membrane</text>
+    <text x="565" y="0" fill="#15201f" font-weight="700">Conceptual illustration</text>
+  </g>
+</svg>
+

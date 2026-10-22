@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="title desc">
+  <title id="title">Core-shell microcapsule manufacture and programmed release</title>
+  <desc id="desc">Conceptual diagram showing separate hydrogel-core and PLGA-shell streams forming a core-shell particle containing mRNA lipid nanoparticles, followed by release over time.</desc>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#0d6764"/></marker>
+    <pattern id="mesh" width="13" height="13" patternUnits="userSpaceOnUse"><path d="M0 6.5h13M6.5 0v13" stroke="#47738a" stroke-width="1" opacity=".42"/></pattern>
+  </defs>
+  <rect width="760" height="560" rx="24" fill="#fffdf8"/>
+  <text x="34" y="42" fill="#15201f" font-family="Georgia, serif" font-size="22">Build structure into the release program</text>
+
+  <g transform="translate(30 78)">
+    <text x="0" y="0" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1">01 · COAXIAL MICROFLUIDICS</text>
+    <path d="M0 72h80V35h32v37h146" fill="none" stroke="#dbe9e5" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 72h258" stroke="#0d6764" stroke-width="3" marker-end="url(#a)"/>
+    <path d="M96 35v28" stroke="#a94835" stroke-width="4" marker-end="url(#a)"/>
+    <path d="M123 72h135" stroke="#80601f" stroke-width="15" opacity=".55"/>
+    <path d="M123 72h135" stroke="#47738a" stroke-width="7"/>
+    <circle cx="164" cy="72" r="4" fill="#0d6764"/><circle cx="200" cy="72" r="4" fill="#0d6764"/><circle cx="234" cy="72" r="4" fill="#0d6764"/>
+    <text x="0" y="126" fill="#47738a" font-family="Arial, sans-serif" font-size="11">hydrogel core + mRNA-LNP</text>
+    <text x="0" y="147" fill="#80601f" font-family="Arial, sans-serif" font-size="11">PLGA shell phase</text>
+    <text x="0" y="168" fill="#0d6764" font-family="Arial, sans-serif" font-size="11">carrier phase →</text>
+  </g>
+
+  <path d="M307 174h53" stroke="#0d6764" stroke-width="3" marker-end="url(#a)"/>
+
+  <g transform="translate(382 78)">
+    <text x="0" y="0" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1">02 · CORE–SHELL ARCHITECTURE</text>
+    <circle cx="112" cy="101" r="86" fill="#f4ded5" stroke="#a94835" stroke-width="13"/>
+    <circle cx="112" cy="101" r="68" fill="url(#mesh)" stroke="#47738a" stroke-width="2"/>
+    <g fill="#0d6764">
+      <circle cx="84" cy="77" r="7"/><circle cx="123" cy="68" r="6"/><circle cx="139" cy="110" r="7"/><circle cx="96" cy="129" r="6"/><circle cx="123" cy="143" r="5"/>
+    </g>
+    <text x="221" y="55" fill="#a94835" font-family="Arial, sans-serif" font-size="11">PLGA shell</text>
+    <line x1="211" y1="59" x2="184" y2="70" stroke="#a94835"/>
+    <text x="221" y="91" fill="#47738a" font-family="Arial, sans-serif" font-size="11">hydrogel core</text>
+    <line x1="211" y1="93" x2="169" y2="98" stroke="#47738a"/>
+    <text x="221" y="127" fill="#0d6764" font-family="Arial, sans-serif" font-size="11">mRNA-LNP</text>
+    <line x1="211" y1="124" x2="145" y2="111" stroke="#0d6764"/>
+    <text x="20" y="207" fill="#5e6763" font-family="Arial, sans-serif" font-size="10">Materials remain visually distinct: carrier nanoparticles inside a gel core, surrounded by a polymer shell.</text>
+  </g>
+
+  <g transform="translate(30 345)">
+    <text x="0" y="0" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1">03 · PROGRAMMED DELIVERY</text>
+    <circle cx="82" cy="87" r="48" fill="#f4ded5" stroke="#a94835" stroke-width="9"/>
+    <circle cx="82" cy="87" r="35" fill="url(#mesh)" stroke="#47738a"/>
+    <g fill="#0d6764"><circle cx="70" cy="76" r="5"/><circle cx="92" cy="89" r="5"/><circle cx="78" cy="102" r="4"/></g>
+    <path d="M151 87h96" stroke="#0d6764" stroke-width="3" marker-end="url(#a)"/>
+    <g fill="#0d6764"><circle cx="186" cy="70" r="5"/><circle cx="208" cy="100" r="5"/><circle cx="233" cy="78" r="4"/></g>
+    <path d="M275 87h96" stroke="#0d6764" stroke-width="3" marker-end="url(#a)"/>
+    <path d="M402 55c29-25 64-14 74 12 30-4 50 20 42 46-11 34-68 43-105 21-31-18-36-54-11-79z" fill="#dbe9e5" stroke="#0d6764" stroke-width="2"/>
+    <g fill="#47738a" opacity=".7"><circle cx="426" cy="84" r="4"/><circle cx="457" cy="112" r="5"/><circle cx="488" cy="83" r="4"/></g>
+    <text x="0" y="169" fill="#5e6763" font-family="Arial, sans-serif" font-size="11">particle</text>
+    <text x="167" y="169" fill="#5e6763" font-family="Arial, sans-serif" font-size="11">release over time</text>
+    <text x="407" y="169" fill="#5e6763" font-family="Arial, sans-serif" font-size="11">local delivery environment</text>
+    <text x="0" y="197" fill="#15201f" font-family="Arial, sans-serif" font-size="10" font-weight="700">Conceptual sequence; timing and particle counts are not quantitative.</text>
+  </g>
+</svg>
+

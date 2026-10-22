@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="title desc">
+  <title id="title">Asymmetric vesicle fabrication and mechanical characterization</title>
+  <desc id="desc">Conceptual sequence from water-in-oil-in-oil-in-water microfluidic templates to a vesicle with compositionally distinct membrane leaflets and micropipette aspiration.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#0d6764"/></marker></defs>
+  <rect width="760" height="560" rx="24" fill="#fffdf8"/>
+  <text x="34" y="42" fill="#15201f" font-family="Georgia, serif" font-size="22">Engineer composition. Then measure mechanics.</text>
+
+  <g transform="translate(30 78)">
+    <text x="0" y="0" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1">01 · MICROFLUIDIC TEMPLATE</text>
+    <path d="M0 72h87V34h28v38h118" fill="none" stroke="#dbe9e5" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 72h233" stroke="#0d6764" stroke-width="3" marker-end="url(#a)"/>
+    <path d="M101 34v23" stroke="#a94835" stroke-width="3" marker-end="url(#a)"/>
+    <circle cx="145" cy="72" r="32" fill="#f1e5c8" stroke="#80601f" stroke-width="4"/>
+    <circle cx="145" cy="72" r="23" fill="#f4ded5" stroke="#a94835" stroke-width="4"/>
+    <circle cx="145" cy="72" r="14" fill="#dbe9e5" stroke="#0d6764" stroke-width="2"/>
+    <text x="0" y="132" fill="#5e6763" font-family="Arial, sans-serif" font-size="11">Aqueous core</text>
+    <line x1="69" y1="128" x2="130" y2="80" stroke="#5e6763"/>
+    <text x="0" y="151" fill="#5e6763" font-family="Arial, sans-serif" font-size="11">Two oil phases with distinct amphiphiles</text>
+    <line x1="191" y1="146" x2="166" y2="91" stroke="#5e6763"/>
+    <text x="0" y="170" fill="#5e6763" font-family="Arial, sans-serif" font-size="11">External aqueous phase</text>
+    <text x="0" y="195" fill="#15201f" font-family="Arial, sans-serif" font-size="10" font-weight="700">W/O/O/W ordering · flow left to right</text>
+  </g>
+
+  <path d="M283 181h62" stroke="#0d6764" stroke-width="3" marker-end="url(#a)"/>
+  <text x="304" y="166" fill="#5e6763" font-family="Arial, sans-serif" font-size="10">dewet</text>
+
+  <g transform="translate(367 78)">
+    <text x="0" y="0" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1">02 · LEAFLET ASYMMETRY</text>
+    <circle cx="97" cy="88" r="70" fill="#f9f7f0" stroke="#0d6764" stroke-width="12" stroke-dasharray="12 4"/>
+    <circle cx="97" cy="88" r="57" fill="#fffdf8" stroke="#a94835" stroke-width="8" stroke-dasharray="4 5"/>
+    <g fill="#47738a"><circle cx="84" cy="77" r="4"/><circle cx="108" cy="98" r="4"/><circle cx="80" cy="112" r="3"/></g>
+    <text x="184" y="57" fill="#0d6764" font-family="Arial, sans-serif" font-size="11">outer leaflet</text>
+    <line x1="174" y1="61" x2="151" y2="69" stroke="#0d6764"/>
+    <text x="184" y="89" fill="#a94835" font-family="Arial, sans-serif" font-size="11">inner leaflet</text>
+    <line x1="174" y1="91" x2="153" y2="91" stroke="#a94835"/>
+    <text x="184" y="122" fill="#47738a" font-family="Arial, sans-serif" font-size="11">aqueous cargo</text>
+    <line x1="174" y1="118" x2="120" y2="101" stroke="#47738a"/>
+    <text x="17" y="180" fill="#5e6763" font-family="Arial, sans-serif" font-size="11">Precisely controlled leaflet composition</text>
+  </g>
+
+  <g transform="translate(30 342)">
+    <text x="0" y="0" fill="#a94835" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1">03 · MICROPIPETTE ASPIRATION</text>
+    <path d="M8 73h160l35 24-35 24H8z" fill="#dbe9e5" stroke="#0d6764" stroke-width="3"/>
+    <path d="M168 73v48" stroke="#0d6764" stroke-width="3"/>
+    <circle cx="252" cy="97" r="63" fill="#fffdf8" stroke="#a94835" stroke-width="7"/>
+    <path d="M167 84c27 0 43 2 55 13-12 11-28 13-55 13" fill="#f4ded5" stroke="#a94835" stroke-width="3"/>
+    <path d="M37 49h94" stroke="#47738a" stroke-width="2" marker-end="url(#a)"/>
+    <text x="37" y="38" fill="#47738a" font-family="Arial, sans-serif" font-size="10">controlled pressure</text>
+    <path d="M331 60h95M331 97h95M331 134h95" stroke="#d8d2c6" stroke-width="2"/>
+    <path d="M331 134c19-7 28-34 45-38 18-4 23-30 50-36" fill="none" stroke="#0d6764" stroke-width="3"/>
+    <text x="449" y="68" fill="#15201f" font-family="Arial, sans-serif" font-size="11">Quantify deformation</text>
+    <text x="449" y="88" fill="#5e6763" font-family="Arial, sans-serif" font-size="11">and membrane response</text>
+    <text x="0" y="190" fill="#5e6763" font-family="Arial, sans-serif" font-size="10">The vesicle is partially drawn into a straight pipette lumen; illustration is conceptual and not to scale.</text>
+  </g>
+</svg>
+

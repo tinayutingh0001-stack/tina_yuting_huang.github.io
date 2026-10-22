@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Tina Yuting Huang academic website</title>
+  <desc id="desc">Faculty candidate working across microfluidics, biomaterials, machine learning, and programmable therapeutic delivery.</desc>
+  <rect width="1200" height="630" fill="#f5f1e8"/>
+  <circle cx="1050" cy="60" r="230" fill="#dbe9e5"/>
+  <circle cx="1100" cy="150" r="132" fill="#f4ded5" opacity=".9"/>
+  <g fill="none" stroke="#0d6764" stroke-width="9">
+    <circle cx="920" cy="350" r="118"/>
+    <circle cx="920" cy="350" r="86" stroke="#a94835"/>
+  </g>
+  <g fill="#b88a2f">
+    <circle cx="887" cy="333" r="11"/><circle cx="950" cy="374" r="9"/><circle cx="906" cy="402" r="7"/>
+  </g>
+  <text x="95" y="126" fill="#0d6764" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="4">FACULTY CANDIDATE</text>
+  <text x="95" y="235" fill="#15201f" font-family="Georgia, serif" font-size="74">Tina Yuting Huang, Ph.D.</text>
+  <text x="95" y="319" fill="#15201f" font-family="Georgia, serif" font-size="43">AI-guided microfluidics and biomaterials</text>
+  <text x="95" y="374" fill="#15201f" font-family="Georgia, serif" font-size="43">for programmable therapeutic delivery</text>
+  <text x="95" y="490" fill="#5e6763" font-family="Arial, sans-serif" font-size="26">MIT Koch Institute for Integrative Cancer Research</text>
+</svg>
