@@ -33,7 +33,6 @@ jobs:
           tar -xzf site-source.tar.gz -C "$source_dir"
           rsync -a --delete \
             --exclude='.git/' \
-            --exclude='.github/workflows/' \
             "$source_dir/" ./
           rm -f site-source.tar.gz
           git config user.name "github-actions[bot]"
